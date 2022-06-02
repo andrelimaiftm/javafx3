@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.iftm.javafx3.ViewController">
+   <children>
+      <ComboBox fx:id="comboBoxPessoas" layoutX="37.0" layoutY="26.0" onAction="#onComboxPessoaAction" prefHeight="25.0" prefWidth="163.0" promptText="Selecione uma Pessoa" />
+      <Button fx:id="btnTodos" layoutX="208.0" layoutY="26.0" mnemonicParsing="false" onAction="#onBtnTodosAction" text="Todos" />
+   </children>
+</AnchorPane>
